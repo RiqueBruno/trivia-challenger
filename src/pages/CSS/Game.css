@@ -21,6 +21,7 @@
 .game {
   background: var(--gradient-color);
   height: 100vh;
+  overflow: hidden;
   width: 100vw;
 }
 

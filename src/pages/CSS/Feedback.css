@@ -23,12 +23,14 @@
 .Winnertrue {
   background: var(--winner-bkg);
   height: 100vh;
+  overflow: hidden;
   width: 100vw;
 }
 
 .Winnerfalse {
   background: var(--loser-bkg);
   height: 100vh;
+  overflow: hidden;
   width: 100vw;
 }
 
