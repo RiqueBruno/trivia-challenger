@@ -161,3 +161,48 @@
   font-size: 18px;
   margin-left: 5px;
 }
+
+@media screen and ( max-width : 800px ) {
+
+  .question h3 {
+    font-size: 15px;
+    width: 250px;
+  }
+
+  .question h2 {
+    font-size: 18px;
+  }
+}
+
+@media screen and ( max-width : 499px ) {
+
+  .question h3 {
+    font-size: 11px;
+    width: 150px;
+  }
+
+  .question h2 {
+    font-size: 12px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .answer {
+    font-size: 11px;
+    height: 30px;
+    padding: 10px 15px;
+    width: 100%;
+  }
+
+  .btn-next {
+    bottom: 6px;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 30px;
+    right: 2rem;
+  }
+
+  .btn-next:after {
+    font-size: 14px;
+  }
+}

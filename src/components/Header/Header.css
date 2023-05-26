@@ -1,7 +1,9 @@
 .header {
+
+  /* rgb(180, 207, 248); */
   align-items: center;
-  background-color: rgb(180, 207, 248);
-  box-shadow: 5px 1px 4px 5px rgb(34, 148, 255);
+  background-color: rgba(2, 73, 187, 0.473);
+  box-shadow: 5px 1px 4px 5px rgb(0, 30, 112);
   display: flex;
   height: 100px;
   justify-content: space-between;
@@ -18,10 +20,13 @@
 
 .headerLogo {
   align-items: center;
+  background-color: white;
+  box-shadow: 1px 1px 2px 2px white;
   display: flex;
-  height: 100%;
+  height: 80px;
   justify-content: center;
   width: 140px;
+
 }
 
 .headerLogo img {
@@ -64,4 +69,74 @@
 .scoreHeader {
   font-size: 25px;
   text-align: end;
+}
+
+
+@media screen and ( max-width : 800px ) {
+
+  .headerPlayerInfos {
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+    width: 300px;
+  }
+
+  .headerLogo {
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px white;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    width: 120px;
+  }
+
+  .headerLogo img {
+    height: 70px;
+    width: 100px;
+  }
+
+  .user img {
+    border-radius: 50%;
+    height: 30px;
+  }
+
+  .user p {
+    font-size: 15px;
+    padding: 2px;
+  }
+
+  .score {
+    padding: 0 0 10px;
+  }
+
+  .score:before {
+    font-size: 18px;
+  }
+
+  .scoreHeader {
+    font-size: 18px;
+  }
+}
+
+@media screen and ( max-width : 499px ) {
+
+  .headerPlayerInfos {
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+    width: 150px;
+  }
+
+  .user p {
+    font-size: 14px;
+  }
+
+  .score:before {
+    font-size: 14px;
+  }
+
+  .scoreHeader {
+    font-size: 14px;
+  }
 }
