@@ -73,6 +73,11 @@
   width: 80%;
 }
 
+.inputEmail::placeholder, .inputUserName::placeholder {
+  color: var(--primary-color);
+  padding: 10px;
+}
+
 .btnPlay {
   align-items: center;
   background: linear-gradient(90deg, #06c 0%, #0077b6 100%);
@@ -259,4 +264,30 @@
   left: 62%;
   top: 11%;
   transform-origin: -6vw -20vh;
+}
+
+@media screen and ( max-width : 499px ) {
+
+  .btnConf {
+    color: transparent;
+    width: 26px;
+  }
+
+  .btnConf:after {
+    color: white;
+    content: '⚙';
+    font-size: 20px;
+    position: absolute;
+    right: 3px;
+  }
+
+  .logo {
+    height: 100px;
+    top: 0;
+    width: 125px;
+  }
+
+  .formLogin2, .formLogin {
+    width: 300px;
+  }
 }

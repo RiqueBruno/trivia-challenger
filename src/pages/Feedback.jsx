@@ -33,8 +33,8 @@ class Feedback extends Component {
 
         <Header />
         <div className="mainFeedback">
-          <div className={ `areCubeHappy-${verify}` } />
           <div className="feedbackCard">
+            <div className={ `areCubeHappy-${verify}` } />
             <div className={ `photo-${verify}` }>
               <img src={ `https://www.gravatar.com/avatar/${hash}` } alt="You" />
             </div>
