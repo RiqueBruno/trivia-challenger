@@ -66,14 +66,12 @@ class Timer extends Component {
     return (
       <div className="timer-container">
         <div>
-          <div className="timeOver">☹</div>
+          <div className="timeOver">{timeCounter <= 0 ? ('☹') : (null)}</div>
           <div className="divRef">
             {timeCounter > 0 ? (
-              <span className="timeReal">
+              <div className="timeReal">
                 {timeCounter}
-                {' '}
-                segundos restantes
-              </span>
+              </div>
             ) : (styleBtn()) }
           </div>
           <div className={ `countdown ${isAnimating ? 'countdown-an' : 'countdown'}` }>

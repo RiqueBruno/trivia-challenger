@@ -76,7 +76,6 @@ class Login extends Component {
               onClick={ () => history.push('/settings') }
             >
               <BsGear color="white" />
-              configurações
             </button>
           </div>
         </div>
