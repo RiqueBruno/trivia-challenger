@@ -10,5 +10,6 @@ Nessa aplicação é possível:
 Acesse a página aqui:
 [trivia-challenger](https://trivia-challenger.vercel.app/)
 <br>
+<br>
 <img src="./game.gif" alt="gif do projeto"/>
 
